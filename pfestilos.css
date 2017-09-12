@@ -1,0 +1,49 @@
+body {
+  background-image: url("fotos/imagen3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 95px;
+  width: 950px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.container1 {
+  background-color: rgba(237, 198, 0, 0.5);
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container1 .pregunta {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) { /*mobile*/
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) { /*Tablet*/
+
+}
+
+@media (min-width: 992px) { /*desktop*/
+
+}

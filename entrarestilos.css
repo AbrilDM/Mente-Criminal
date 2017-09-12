@@ -1,0 +1,234 @@
+body {
+  background-image: url("fotos/imagen1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+
+.olvido a {
+  display: inline-block;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+}
+
+.recordar label {
+  font-family: sans-serif;
+  color: black;
+  font-weight: normal;
+}
+
+.boton button {
+  background-color: rgb(237, 198, 0);
+  width: 70%;
+}
+
+.boton button a {
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.botons button {
+  background-color: rgb(237, 198, 0);
+  width: 70%;
+}
+
+.botons button a {
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+p {
+  display: inline-block;
+  font-family: sans-serif;
+  color: black;
+  text-align: left;
+}
+
+@media (max-width: 768px) { /*mobile*/
+
+  .container {
+    padding-top: 10px;
+    margin-top: 65px;
+    width: 80%;
+    height: 600px;
+  }
+
+  h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .olvido a {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+  .form-horizontal {
+    margin-top: 40px;
+  }
+
+  .recordar label {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+  }
+
+  .boton button {
+    margin-left: 5px;
+    width: 100%;
+  }
+
+  .boton button a {
+    font-size: 20px;
+  }
+
+  .botons button {
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 35px;
+  }
+
+  .botons button a {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 13px;
+    padding-left: 20px;
+    margin-top: 40px;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) { /*tablet*/
+
+  .container {
+    padding-top: 10px;
+    margin-top: 65px;
+    width: 450px;
+    height: 580px;
+  }
+
+  h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .olvido a {
+    font-size: 15px;
+    margin-left: 110px;
+    margin-top: 10px;
+  }
+
+  .form-horizontal {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .recordar label {
+    font-size: 14px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+  }
+
+  .boton button {
+    margin-left: 10px;
+    width: 130%;
+  }
+
+  .boton button a {
+    font-size: 20px;
+  }
+
+  .botons button {
+    margin-left: 60px;
+    margin-top: 60px;
+  }
+
+  .botons button a {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 13px;
+    padding-left: 20px;
+    margin-top: 14px;
+  }
+
+}
+
+
+@media (min-width: 992px) { /*desktop*/
+
+  .container {
+    padding-top: 10px;
+    margin-top: 65px;
+    width: 450px;
+  }
+
+  h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .olvido a {
+    font-size: 15px;
+    margin-left: 110px;
+    margin-top: 10px;
+  }
+
+  .form-horizontal {
+    margin-top: 40px;
+  }
+
+  .recordar label {
+    font-size: 14px;
+    margin-left: 165px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+  }
+
+  .boton button {
+    margin-left: 10px;
+    width: 130%;
+  }
+
+  .boton button a {
+    font-size: 20px;
+  }
+
+  .botons button {
+    margin-left: 95px;
+    margin-top: 90px;
+  }
+
+  .botons button a {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 13px;
+    padding-left: 20px;
+    margin-top: 14px;
+  }
+
+}

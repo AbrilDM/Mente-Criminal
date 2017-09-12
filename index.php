@@ -2,35 +2,47 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Misterio%20Criminal/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <title> Index </title>
   </head>
   <body>
+
     <div class="container">
+
       <div class="row">
+          <h1> Bienvenido a <br>Misterio Criminal</h1>
 
-       <div class="col-lg-12"> <header> <div class="caja_vacia"></div> </header> </div> <!-- Esta caja es para hacer el pading y que quede centrado nuestro texto -->
+          <p class="text">
+            ¡Sé parte de este juego, sumate a la adrenalina <br>y ayudanos a resolver el misterio!
+          </p>
 
-       <div class="col-lg-12"><h1> Bienvenido a Misterio Criminal</h1></div>
+          <div class="row botones">
 
-       <div class="col-lg-12"> <p>
-         ¡Sé parte de este juego, suamte a la adrenalina y ayudanos a resolver el misterio!
-       </p></div>
+            <div class="col-sm-5 ">
+              <div class="boton">
+                <button type="button" class="btn btn-default btn-lg">
+                  <a href="entrar.php"> Entrar </a>
+                </button>
+              </div>
+            </div>
 
-       <div class="col-lg-4"><div class="boton">
-         <button type="button" class="btn btn-default btn-lg"> <a href="entrar.php"> Entrar </a> </button>
-       </div></div>
+            <p class="col-md-2 ox"> o </p>
 
-        <div class="col-lg-4"><p> o </p></div>
+            <div class="col-sm-5">
+              <div class="boton">
+                <button type="button" class="btn btn-default btn-lg">
+                  <a href="registro.php"> Registrate </a>
+                </button>
+              </div>
+            </div>
 
-        <div class="col-lg-4"><div class="boton">
-        <button type="button" class="btn btn-default btn-lg"> <a href="registro.php"> Registrate </a> </button>
-      </div></div>
-
-       <div class="col-lg-12"><footer> <div class="caja_vacia"></div> </footer></div> <!-- Esta caja también es para hacer el pading y que quede centrado nuestro texto -->
-
+          </div>
+      </div>
     </div>
-  </div>
-  <link rel="stylesheet" href="jquery.js">
+  <!--<link rel="stylesheet" href="jquery.js">-->
 </body>
 </html>
